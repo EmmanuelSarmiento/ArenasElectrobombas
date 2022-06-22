@@ -27,6 +27,11 @@ header {
     margin: 1rem;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 30px;
+    transition: all 2s;
+}
+.listas li a:hover {
+    width: 300px;
+    font-size: 35px;
 }
 nav {
     display: flex;
@@ -50,6 +55,7 @@ h3 {
     border: solid;
     border-style: outset;
     margin: 1rem 0 1rem 0;
+    animation: animacion 4s infinite;
 }
 .imgCenter {
     display: flex;
@@ -177,6 +183,10 @@ footer {
     nav {
         justify-content: space-around;
         align-items: center;
+        transform: translate(-70px);
+    }
+    .logo{
+        transform: translate(-150px);
     }
     div img {
         margin: 10rem;
@@ -206,4 +216,9 @@ footer {
     .fotoEmpresarial img {
         width: 100%;
     }
+}
+@keyframes animacion {
+    0% { background-color: #ffffff; } 
+    50% { color: #ffffff; }
+    100% { background-color: #000000; color: #ffffff;}
 }
