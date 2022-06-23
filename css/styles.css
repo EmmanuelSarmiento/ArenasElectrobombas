@@ -23,6 +23,14 @@ h3 {
 /*about*/
 .parrafoEmpresa p {
     font-family: 'Merriweather Sans', sans-serif;
+    line-height: 1.6;
+    border-style: double;
+    margin: 20px;
+    padding: 20px;
+}
+/*about
+.parrafoEmpresa p {
+    font-family: 'Merriweather Sans', sans-serif;
     font-size: x-large;
     line-height: 1.6;
     text-align: justify;
@@ -46,7 +54,7 @@ h3 {
     "parrafoEmpresa"
     "fotoEmpresarial"
     "footer";
-}
+}*/
 /*gallery*/
 h3 {
     font-family: 'Merriweather Sans', sans-serif;
