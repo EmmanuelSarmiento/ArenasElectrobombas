@@ -3,9 +3,6 @@
     margin-left: 0;
     box-sizing: border-box;
 }
-a {text-decoration: none;
-    color: #000;
-}
 /*index*/
 body {
     margin: 100%;
@@ -63,76 +60,64 @@ div ol li {
     width: 50%;
 }
 /*contact*/
-section form label {
+h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+label {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: medium;
     font-weight: bold;
     margin-left: 20px;
+    border-radius: 5px;
 }
-section form select {
-    margin-left: 20px;
-    width: 25%;
-    padding: 16px 20px;
-    border-radius: 4px;
-    background-color: #f1f1f1;
+input#nombre {
+    width: 85%;
+    margin-left: 1rem;
+    border-radius: 5px;
 }
-section form textarea {
-    margin-left: 20px;
+input#apellido {
+    width: 85%;
+    margin-left: 1rem;
+    border-radius: 5px;
 }
-section form input {
+input#empresa {
+    width: 85%;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+input#direccionUno {
+    width: 85%;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+input#direccionDos {
+    width: 80%;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+select {
+    font-weight: bold;
+    width: 100%;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+label#trabjo {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: medium;
+    font-weight: bold;
     margin-left: 20px;
+    border-radius: 5px;
+}
+textarea#datosDelTrabajo {
+    width: 95%;
+    border-radius: 5px;
+}
+.btn.btn-warning {
+    width: 100%;
 }
 footer {
     display: flex;
     justify-content: center;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: x-large;
-    background-color: #EBA83A;
 }
-/*responsive mobile
-@media screen and (max-width: 480px) {
-    .listas {
-        flex-direction: column;
-    }
-    nav {
-        justify-content: space-around;
-        align-items: center;
-        transform: translate(-70px);
-    }
-    .logo{
-        transform: translate(-150px);
-    }
-    div img {
-        margin: 10rem;
-        overflow: hidden;
-    }
-    #grilla {
-        grid-template-areas: 
-        "header"
-        "left"
-        "center"
-        "right" 
-        "footer";
-    }
-    div#left, div#center, div#right {
-        width: 100%;
-        justify-self: center;
-        display: flex;
-        flex-direction: inherit;
-        margin: 1rem 0 1rem 0;
-    }
-    .imgCenter {
-        width: 100%;
-    }
-    .parrafoEmpresa p {
-        font-size: xx-large;
-    }
-    .fotoEmpresarial img {
-        width: 100%;
-    }
-}
-@keyframes animacion {
-    0% { background-color: #ffffff; } 
-    50% { color: #ffffff; }
-    100% { background-color: #000000; color: #ffffff;}
-}*/

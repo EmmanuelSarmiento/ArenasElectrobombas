@@ -12,22 +12,87 @@
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<header class="headerFlex">
-    <a href="../index.html"><img src="../media/Logo Arenas Electrobombas.png" alt="Logo de Arenas Electrobombas"></a>
-    <nav>
-        <ul class="listas">
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./about.html">La Empresa</a></li>
-            <li><a href="./gallery.html">Galeria</a></li>
-            <li><a href="./location.html">Donde encontrarnos</a></li>
-            <li><a href="./contact.html">Contactanos</a></li>
-        </ul>
+<header>
+    <nav class="row navbar navbar-expand-lg" style="background-color: #EBA83A;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><img src="../media/logo Arenas Electrobombas.png" alt="Logo de Arenas Electrobombas"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <ul class="navbar-nav">
+                  <li class="nav-item"><a class="nav-link active" aria-current="page" href="../index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./about.html">La Empresa</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./gallery.html">Galeria</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./location.html">Donde Encontrarnos</a></li>
+                  <li class="nav-item"><a class="nav-link" href="./contact.html">Contactanos</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
 </header>
 <body>
-    <section>
-        <h1>Contactanos</h1>
-        <form>
+    <section class="container-fluid">
+        <h1 class="text-center fw-bold mt-5 mb-5">Contactanos</h1>
+        <form class="row g-3">
+            <div class="col-md-6 mb-3">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" />
+            </div>
+            <div class="col-md-6">
+                <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" />
+            </div>
+            <div class="col-6 mb-3">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa" />
+            </div>
+            <div class="col-6">
+              <label for="direccion" class="form-label">Direccion</label>
+              <input type="text" id="direccionUno">
+            </div>
+            <div class="col-6 mb-3">
+                <label for="entreCalles" class="form-label">Entre Calles</label>
+                <input type="text" id="direccionDos">
+            </div>
+            <div class="col-md-6">
+                <select>
+                    <option selected="selected"> Seleccione su localidad</option>
+                    <option>Ciudad</option>
+                    <option>General Alvear</option>
+                    <option>General San Martín</option>
+                    <option>Godoy Cruz</option>
+                    <option>Guaymallén</option>
+                    <option>Junín</option>
+                    <option>La Paz</option>
+                    <option>Las Heras</option>
+                    <option>Lavalle</option>
+                    <option>Luján de Cuyo</option>
+                    <option>Maipú</option>
+                    <option>Malargüe</option>
+                    <option>Rivadavia</option>
+                    <option>San Carlos</option>
+                    <option>San Rafael</option>
+                    <option>Santa Rosa</option>
+                    <option>Tunuyán</option>
+                    <option>tupungato</option>
+                </select>
+            </div>
+            <div class="col-12 text-center">
+                <label for="datos del trabajo" id="trabajo">Información del trabajo requerido</label>
+            </div>
+            <div class="col-12 text-center">
+                <textarea id="datosDelTrabajo" rows="10" cols="50"></textarea>
+            </div>
+            <div class="col-6 mb-3">
+                <input class="btn btn-warning" type="submit" value="Submit">
+            </div>
+            <div class="col-6">
+                <input class="btn btn-warning" type="reset" value="Reset">
+              </div>
+        </form>
+    </section>
+        <!-- <form>
             <label for="nombre">
                 Su nombre
             </label>
@@ -74,13 +139,26 @@
             <input type="submit" />
             <input type="reset" />
             <hr />
-        </form>
+        </form> -->
     </section>
-    <footer>
-        <address>
-            Emmanuel Sarmiento<br />
-            <a href="mailto:emmatombino21@gmail.com">emmatombino21@gmail.com</a><br />
-        </address>
+    <footer class="text-center text-white" style="background-color: #EBA83A;">
+        <div class="text-center text-dark p-3">
+            <a class="text-dark text-decoration-none">© 2022 Copyright: Emmanuel Sarmiento</a>
+        </div>
+        <div class="container pt-4">
+            <section class="mb-4">
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="mailto:emmatombino21@gmail.com" role="button" data-mdb-ripple-color="dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+                        <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+                    </svg>
+                </a>
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://github.com/EmmanuelSarmiento" role="button" data-mdb-ripple-color="dark">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                    </svg>
+                </a>
+            </section>
+        </div>
     </footer>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
