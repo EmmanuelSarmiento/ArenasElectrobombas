@@ -40,24 +40,9 @@ div ol li {
     list-style: none;
 }
 /*location*/
-.encontranos li{
+ul.list-group {
     font-family: 'Merriweather Sans', sans-serif;
-    font-size: large;
-    display: block;
-    border-style: outset;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-.encontranos iframe {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    font-size: medium;
 }
 /*contact*/
 h1 {
