@@ -11,11 +11,20 @@ body {
 ul.navbar-nav {
     font-family: 'Merriweather Sans', sans-serif;
     font-size: x-large;
+    transition: all 2s;
+}
+ul.navbar-nav a:hover {
+    border-style:double; 
+    border-radius: 10px;
 }
 h3 {
     border: solid;
     border-style: outset;
     margin: 1rem 0 1rem 0;
+}
+h3:hover {
+    animation: flash;
+    animation-duration: 2s;
 }
 /*about*/
 .parrafoEmpresa p {
@@ -105,9 +114,4 @@ footer {
     justify-content: center;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: x-large;
-}
-@media screen and (max-width 960px){
-    ul.navbar-nav {
-        transform: translateX(50px);
-    }
 }
