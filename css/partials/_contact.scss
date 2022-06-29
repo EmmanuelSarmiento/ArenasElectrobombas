@@ -1,0 +1,61 @@
+h1 {
+    font-family: $fuente;
+}
+section form div label {
+    font-family: $fuente;
+    font-size: $fuenteMedium;
+    border-radius: $bordesRadios;
+    font-weight: bold;
+    margin-left: 20px;
+    &#trabjo {
+        font-family: $fuente;
+        font-size: $fuenteMedium;
+        border-radius: $bordesRadios;
+        font-weight: bold;
+        margin-left: 20px;
+        
+    } 
+}
+section form div input {
+    &#nombre {
+        width: $width;
+        margin-left: $margenUrem;
+        border-radius: $bordesRadios;
+    }
+    &#apellido {
+        width: $width;
+        margin-left: $margenUrem;
+        border-radius: $bordesRadios;
+    }
+    &#empresa {
+        width: $width;
+        margin-left: $margenUrem;
+        border-radius: $bordesRadios;
+    }
+    &#direccionUno {
+        width: $width;
+        margin-left: $margenUrem;
+        border-radius: $bordesRadios;
+    }
+    &.btn.btn-warning {
+        width: 100%;
+    }
+}
+section form div {
+    & input#direccionDos {
+        width: 80%;
+        margin-left: $margenUrem;
+        border-radius: $bordesRadios;
+    }
+    & select {
+        font-weight: bold;
+        width: 100%;
+        margin-left: $margenUrem;
+        border-radius: $bordesRadios;
+    }
+    & textarea#datosDelTrabajo {
+        width: 95%;
+        border-radius: $bordesRadios;
+    }
+    
+}

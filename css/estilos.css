@@ -30,4 +30,83 @@ h3:hover {
           animation: heartBeat;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: x-large;
+}
+
+.parrafoEmpresa p {
+  font-family: "Merriweather Sans", sans-serif;
+  line-height: 1.6;
+  border-style: double;
+  margin: 20px;
+  padding: 20px;
+}
+
+.container-fluid .col-lg-6.d-flex.align-items-center .list-group {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: medium;
+}
+
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+section form div label {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+section form div label#trabjo {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+section form div input#nombre {
+  width: 85%;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+section form div input#apellido {
+  width: 85%;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+section form div input#empresa {
+  width: 85%;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+section form div input#direccionUno {
+  width: 85%;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+section form div input.btn.btn-warning {
+  width: 100%;
+}
+
+section form div input#direccionDos {
+  width: 80%;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+section form div select {
+  font-weight: bold;
+  width: 100%;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+section form div textarea#datosDelTrabajo {
+  width: 95%;
+  border-radius: 5px;
 }/*# sourceMappingURL=estilos.css.map */
