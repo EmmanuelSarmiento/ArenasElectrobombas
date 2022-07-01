@@ -109,4 +109,14 @@ section form div select {
 section form div textarea#datosDelTrabajo {
   width: 95%;
   border-radius: 5px;
+}
+
+h2.text-center.fw-bold.mt-5.mb-5.border.border-5.rounded-5 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: x-large;
+  text-align: center;
+}
+
+div ol li {
+  list-style: none;
 }/*# sourceMappingURL=estilos.css.map */

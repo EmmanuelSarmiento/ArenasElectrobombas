@@ -41,6 +41,9 @@ h3 {
     font-size: x-large;
     text-align: center;
 }
+li {
+    list-style: none;
+}
 /*location*/
 ul.list-group {
     font-family: 'Merriweather Sans', sans-serif;
