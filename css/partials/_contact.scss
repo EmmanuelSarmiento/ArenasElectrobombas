@@ -2,59 +2,49 @@ h1 {
     font-family: $fuente;
 }
 section form div label {
-    font-family: $fuente;
-    font-size: $fuenteMedium;
-    border-radius: $bordesRadios;
-    font-weight: bold;
-    margin-left: 20px;
+    font-family: map-get($estilos, font-family);
+    font-size: map-get($estilos, font-size);
+    border-radius: map-get($estilos, border-radius);
+    font-weight: map-get($estilos, font-weight);
+    margin-left: map-get($estilos, margin-left);
     &#trabjo {
-        font-family: $fuente;
-        font-size: $fuenteMedium;
-        border-radius: $bordesRadios;
-        font-weight: bold;
-        margin-left: 20px;
-        
+        font-family: map-get($estilos, font-family);
+        font-size: map-get($estilos, font-size);
+        border-radius: map-get($estilos, border-radius);
+        font-weight: map-get($estilos, font-weight);
+        margin-left: map-get($estilos, margin-left);
     } 
 }
 section form div input {
     &#nombre {
-        width: $width;
-        margin-left: $margenUrem;
-        border-radius: $bordesRadios;
+        width: 85%;
+        margin-left: 1rem;
+        border-radius: 5px;
     }
     &#apellido {
-        width: $width;
-        margin-left: $margenUrem;
-        border-radius: $bordesRadios;
+        @extend #nombre
     }
     &#empresa {
-        width: $width;
-        margin-left: $margenUrem;
-        border-radius: $bordesRadios;
+        @extend #nombre
     }
     &#direccionUno {
-        width: $width;
-        margin-left: $margenUrem;
-        border-radius: $bordesRadios;
+        @extend #nombre
     }
     &.btn.btn-warning {
-        width: 100%;
+        @include ancho(100%);
     }
 }
 section form div {
     & input#direccionDos {
-        width: 80%;
-        margin-left: $margenUrem;
-        border-radius: $bordesRadios;
+        @include ancho(80%);
+        @extend #nombre
     }
     & select {
-        font-weight: bold;
-        width: 100%;
-        margin-left: $margenUrem;
-        border-radius: $bordesRadios;
+        @include ancho(100%);
+        @extend #nombre
     }
     & textarea#datosDelTrabajo {
-        width: 95%;
+        @include ancho(95%);
         border-radius: $bordesRadios;
     }
     

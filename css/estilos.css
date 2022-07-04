@@ -71,22 +71,7 @@ section form div label#trabjo {
   margin-left: 20px;
 }
 
-section form div input#nombre {
-  width: 85%;
-  margin-left: 1rem;
-  border-radius: 5px;
-}
-section form div input#apellido {
-  width: 85%;
-  margin-left: 1rem;
-  border-radius: 5px;
-}
-section form div input#empresa {
-  width: 85%;
-  margin-left: 1rem;
-  border-radius: 5px;
-}
-section form div input#direccionUno {
+section form div input#nombre, section form div input#direccionDos, section form div input#direccionUno, section form div input#empresa, section form div input#apellido {
   width: 85%;
   margin-left: 1rem;
   border-radius: 5px;
@@ -97,14 +82,9 @@ section form div input.btn.btn-warning {
 
 section form div input#direccionDos {
   width: 80%;
-  margin-left: 1rem;
-  border-radius: 5px;
 }
 section form div select {
-  font-weight: bold;
   width: 100%;
-  margin-left: 1rem;
-  border-radius: 5px;
 }
 section form div textarea#datosDelTrabajo {
   width: 95%;
