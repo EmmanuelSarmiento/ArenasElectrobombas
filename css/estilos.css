@@ -5,7 +5,6 @@
 }
 
 /*index*/
-
 body {
   margin: 100%;
   height: 100%;
@@ -20,7 +19,6 @@ nav.row.navbar.navbar-expand-lg {
   font-size: x-large;
   transition: all 2s;
 }
-
 .row.navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse.justify-content-end .navbar-nav .nav-item .nav-link.active {
   color: #000;
   font-weight: 600;
@@ -41,7 +39,6 @@ footer {
 }
 
 /*about*/
-
 .parrafoEmpresa p {
   font-family: "Merriweather Sans", sans-serif;
   line-height: 1.6;
@@ -51,19 +48,12 @@ footer {
 }
 
 /*location*/
-
 .container-fluid .col-lg-6.d-flex.align-items-center .list-group {
   font-family: "Merriweather Sans", sans-serif;
   font-size: medium;
-
 }
-<<<<<<< HEAD
-/*contact*/
-=======
 
 /*contact*/
-
->>>>>>> proyectoV4
 h1 {
   font-family: "Merriweather Sans", sans-serif;
 }
@@ -75,7 +65,6 @@ section form div label {
   font-weight: bold;
   margin-left: 20px;
 }
-
 section form div label#trabjo {
   font-family: "Merriweather Sans", sans-serif;
   font-size: medium;
@@ -89,7 +78,6 @@ section form div input#nombre, section form div input#direccionDos, section form
   margin-left: 1rem;
   border-radius: 5px;
 }
-
 section form div input.btn.btn-warning {
   width: 100%;
 }
@@ -97,18 +85,15 @@ section form div input.btn.btn-warning {
 section form div input#direccionDos {
   width: 80%;
 }
-
 section form div select {
   width: 100%;
 }
-
 section form div textarea#datosDelTrabajo {
   width: 95%;
   border-radius: 5px;
 }
 
 /*gallery*/
-
 h2.text-center.fw-bold.mt-5.mb-3.border.border-5.rounded-5 {
   font-family: "Merriweather Sans", sans-serif;
   font-size: x-large;
