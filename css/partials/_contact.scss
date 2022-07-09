@@ -1,6 +1,8 @@
+/*contact*/
 h1 {
     font-family: $fuente;
 }
+
 section form div label {
     font-family: map-get($estilos, font-family);
     font-size: map-get($estilos, font-size);
@@ -15,6 +17,7 @@ section form div label {
         margin-left: map-get($estilos, margin-left);
     } 
 }
+
 section form div input {
     &#nombre {
         width: 85%;
@@ -34,6 +37,7 @@ section form div input {
         @include ancho(100%);
     }
 }
+
 section form div {
     & input#direccionDos {
         @include ancho(80%);
