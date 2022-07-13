@@ -6,6 +6,7 @@ body {
 
 nav.row.navbar.navbar-expand-lg {
     margin-right: 1px;
+    background-color: #EBA83A;
 }
 
 .row.navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse.justify-content-end{
@@ -32,5 +33,9 @@ footer {
     display: flex;
     justify-content: center;
     font-family: $fuente;
-    font-size: $fuenteXlarge;
+    font-size: $fuenteLarge;
+    background-color: #EBA83A;
+    & div.text-center.text-dark.mt-5 {
+        width: 30rem;
+    }
 }
