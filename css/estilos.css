@@ -12,6 +12,7 @@ body {
 
 nav.row.navbar.navbar-expand-lg {
   margin-right: 1px;
+  background-color: #EBA83A;
 }
 
 .row.navbar.navbar-expand-lg .container-fluid .collapse.navbar-collapse.justify-content-end .navbar-nav {
@@ -35,7 +36,11 @@ footer {
   display: flex;
   justify-content: center;
   font-family: "Merriweather Sans", sans-serif;
-  font-size: x-large;
+  font-size: large;
+  background-color: #EBA83A;
+}
+footer div.text-center.text-dark.mt-5 {
+  width: 30rem;
 }
 
 /*about*/
