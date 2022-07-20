@@ -27,10 +27,10 @@ nav.row.navbar.navbar-expand-lg {
 }
 
 .carousel-caption {
-  top: 5%;
+  top: 0.5rem;
 }
 
-#demo {
+#carouselExampleControls {
   margin: 1rem;
 }
 
