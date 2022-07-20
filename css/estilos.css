@@ -26,27 +26,31 @@ nav.row.navbar.navbar-expand-lg {
   text-decoration: underline;
 }
 
-#demo div.carousel-inner div.carousel-item.active {
-  padding: 1rem;
+.caption-center {
+  top: 5%;
 }
-#demo div.carousel-inner div.carousel-item.active img {
-  width: 100%;
-}
-#demo div.carousel-inner div.carousel-item.active div.carousel-caption {
-  margin-top: 6rem;
-  padding: 0;
-  color: #000;
+
+/*#demo div.carousel-inner div.carousel-item.active {
+    padding: 1rem;
+    & img {
+        width: 100%;
+    }
+
+    & div.carousel-caption {
+        margin-top: 6rem;
+        padding: 0;
+        color: #000;
+    }
 }
 
 h1 {
-  display: flex;
-  border: solid;
-  border-style: outset;
-  justify-content: center;
-  align-items: center;
-  margin: 1rem 0 1rem 0;
-}
-
+    display: flex;
+    border: solid;
+    border-style: outset;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem 0;
+}*/
 footer {
   display: flex;
   justify-content: center;
