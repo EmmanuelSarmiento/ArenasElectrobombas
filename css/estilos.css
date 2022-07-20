@@ -26,8 +26,12 @@ nav.row.navbar.navbar-expand-lg {
   text-decoration: underline;
 }
 
-.caption-center {
+.carousel-caption {
   top: 5%;
+}
+
+#demo {
+  margin: 1rem;
 }
 
 /*#demo div.carousel-inner div.carousel-item.active {
