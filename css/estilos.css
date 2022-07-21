@@ -30,15 +30,9 @@ img.d-block.w-100 {
   padding: 1rem;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: large;
+footer.row.text-center.text-white {
+  margin-right: 1px;
   background-color: #EBA83A;
-}
-footer div.text-center.text-dark.mt-5 {
-  width: 30rem;
 }
 
 /*about*/
@@ -51,9 +45,13 @@ footer div.text-center.text-dark.mt-5 {
 }
 
 /*location*/
-.container-fluid .col-lg-6.d-flex.align-items-center .list-group {
+.container-fluid .col-sm-12.col-md-12.col-lg-6.d-flex.align-items-center .list-group {
   font-family: "Merriweather Sans", sans-serif;
   font-size: medium;
+}
+
+section article ul.list-group {
+  width: 100%;
 }
 
 /*contact*/
