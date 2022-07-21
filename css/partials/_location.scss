@@ -1,7 +1,11 @@
 /*location*/
-.container-fluid .col-lg-6.d-flex.align-items-center {
+.container-fluid .col-sm-12.col-md-12.col-lg-6.d-flex.align-items-center {
     .list-group {
         font-family: $fuente;
         font-size: $fuenteMedium;
     }
+}
+
+section article ul.list-group {
+    width: 100%;
 }

@@ -27,13 +27,7 @@ img.d-block.w-100 {
     padding: 1rem;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    font-family: $fuente;
-    font-size: $fuenteLarge;
+footer.row.text-center.text-white{
+    margin-right: 1px;
     background-color: #EBA83A;
-    & div.text-center.text-dark.mt-5 {
-        width: 30rem;
-    }
 }
