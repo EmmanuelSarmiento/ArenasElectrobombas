@@ -26,12 +26,8 @@ nav.row.navbar.navbar-expand-lg {
   text-decoration: underline;
 }
 
-.carousel-caption {
-  top: 0.5rem;
-}
-
-#carouselExampleControls {
-  margin: 1rem;
+img.d-block.w-100 {
+  padding: 1rem;
 }
 
 footer {
