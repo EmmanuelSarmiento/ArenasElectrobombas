@@ -35,6 +35,12 @@ footer.row.text-center.text-white {
   background-color: #EBA83A;
 }
 
+@media (max-width: 768px) {
+  nav div a img {
+    width: 90px;
+    height: 65px;
+  }
+}
 /*about*/
 .parrafoEmpresa p {
   font-family: "Merriweather Sans", sans-serif;
