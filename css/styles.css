@@ -20,14 +20,6 @@ nav.row.navbar.navbar-expand-lg {
   background-color: #eba83a;
 }
 
-ul.navbar-nav {
-  position: absolute;
-  top: 50%;
-  left: 70%;
-  transform: translate(-50%, -50%);
-  display: flex;
-}
-
 ul.navbar-nav li {
   list-style: none;
 }
