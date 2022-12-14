@@ -1,0 +1,55 @@
+/*contact*/
+
+h1 {
+  font-family: $fuente;
+}
+
+section form div label {
+  font-family: map-get($estilos, font-family);
+  font-size: map-get($estilos, font-size);
+  border-radius: map-get($estilos, border-radius);
+  font-weight: map-get($estilos, font-weight);
+  margin-left: map-get($estilos, margin-left);
+  &#trabjo {
+    font-family: map-get($estilos, font-family);
+    font-size: map-get($estilos, font-size);
+    border-radius: map-get($estilos, border-radius);
+    font-weight: map-get($estilos, font-weight);
+    margin-left: map-get($estilos, margin-left);
+  }
+}
+
+section form div input {
+  &#nombre {
+    width: 90%;
+    margin-left: $margenUrem;
+    border-radius: 5px;
+  }
+  &#apellido {
+    @extend #nombre;
+  }
+  &#empresa {
+    @extend #nombre;
+  }
+  &#direccionUno {
+    @extend #nombre;
+  }
+  &.btn.btn-warning {
+    @include ancho(100%);
+  }
+}
+
+section form div {
+  & input#direccionDos {
+    @include ancho(90%);
+    @extend #nombre;
+  }
+  & select {
+    @include ancho(100%);
+    @extend #nombre;
+  }
+  & textarea#datosDelTrabajo {
+    @include ancho(95%);
+    border-radius: $bordesRadios;
+  }
+}

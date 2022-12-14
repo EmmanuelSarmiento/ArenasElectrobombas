@@ -1,0 +1,12 @@
+/*location*/
+
+.container-fluid .col-sm-12.col-md-12.col-lg-6.d-flex.align-items-center.py-3 {
+  .list-group {
+    font-family: $fuente;
+    font-size: $fuenteMedium;
+  }
+}
+
+section article ul.list-group {
+  width: 100%;
+}

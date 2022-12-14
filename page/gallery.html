@@ -4,6 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="bombas de agua, electrobombas, bobinados, galería, fotos, imágenes, imágenes de la empresa, fotos de la empresa, fotos de los trabajos, imágenes de los trabajos"
+    />
+    <meta
+      name="description"
+      content="Podrás ver fotos de algunos de nuestros trabajos así como de algunos de nuestros equipos de trabajo"
+    />
     <title>ArenasElectrobombas</title>
     <!-- Google fonts -->
     <link
@@ -13,7 +21,7 @@
     <!-- Animate scroll -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="../css/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../css/estilos.css" />
     <!-- Animate CSS -->
     <link
       rel="stylesheet"
@@ -74,65 +82,123 @@
     </nav>
   </header>
   <body>
-    <h3 class="h3">Nuestros equipos</h3>
-    <p>fotos en carrousel</p>
-    <div>
-      <ul>
-        <li>
+    <h2 class="text-center fw-bold mt-5 mb-3 border border-5 rounded-5">
+      Nuestros equipos
+    </h2>
+    <div
+      id="carouselExampleFade"
+      class="container carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="row carousel-inner">
+        <div class="col-xxl carousel-item active">
           <img
             src="../media/camion_con_motor_generador.jpg"
+            class="rounded d-block w-100"
             alt="Camion con motor generador"
           />
-        </li>
-        <li>
-          <img src="../media/camion_grua.jpg" alt="Camion grua" />
-        </li>
-        <li>
-          <img src="../media/camion_perforador.jpg" alt="Camion perforador" />
-        </li>
-        <li>
-          <img src="../media/camioneta_con_generador.jpg" alt="Generador" />
-        </li>
-        <li>
-          <img src="../media/pluma_amarilla.jpg" alt="Pluma amarilla" />
-        </li>
-        <li>
-          <img src="../media/pluma_roja.jpg" alt="Pluma roja" />
-        </li>
-      </ul>
+        </div>
+        <div class="col-xxl carousel-item">
+          <img
+            src="../media/camion_grua.jpg"
+            class="rounded d-block w-100"
+            alt="Camion grua"
+          />
+        </div>
+        <div class="col-xxl carousel-item">
+          <img
+            src="../media/camion_perforador.jpg"
+            class="rounded d-block w-100"
+            alt="Camion perforador"
+          />
+        </div>
+        <div class="col-xxl carousel-item">
+          <img
+            src="../media/camioneta_con_generador.jpg"
+            class="rounded d-block w-100"
+            alt="Generador"
+          />
+        </div>
+        <div class="col-xxl carousel-item">
+          <img
+            src="../media/pluma_amarilla.jpg"
+            class="rounded d-block w-100"
+            alt="Pluma amarilla"
+          />
+        </div>
+        <div class="col-xxl carousel-item">
+          <img
+            src="../media/pluma_roja.jpg"
+            class="rounded d-block w-100"
+            alt="Pluma roja"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleFade"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <h3 class="h3">Algunos trabajos</h3>
-    <p>fotos en pares</p>
-    <div>
-      <ol>
-        <li>
-          <img src="../media/imagen_escaner.jpg" alt="Escaner" />
-        </li>
-        <li>
-          <img src="../media/extraccion_de_cano.jpg" alt="Extraccion de caño" />
-        </li>
-        <li>
-          <img src="../media/imagen_del_escaner.jpg" alt="Imagen del escaner" />
-        </li>
-        <li>
-          <img
-            src="../media/bajando_bomba.jpg"
-            alt="Descendiendo bomba de agua"
-          />
-        </li>
-        <li>
-          <img
-            src="../media/haciendo_perforación.jpg"
-            alt="Camion perforando"
-          />
-        </li>
-        <li>
-          <img
-            src="../media/introduciendo_bomba_de_agua.jpg"
-            alt="Introduciendo bomba de agua"
-          />
-        </li>
-      </ol>
+    <h2 class="text-center fw-bold mt-5 mb-3 border border-5 rounded-5">
+      Algunos trabajos
+    </h2>
+    <div class="row row-cols-1 row-cols-md-2 g-4 mt-1 mb-5">
+      <div class="col-lg-4 h-75 card">
+        <img
+          src="../media/imagen_escaner.jpg"
+          class="h-100 card-img-top rounded d-flex justify-content-center"
+          alt="Escaner"
+        />
+      </div>
+      <div class="col-lg-4 h-75 card">
+        <img
+          src="../media/extraccion_de_cano.jpg"
+          class="h-100 card-img-top rounded d-flex justify-content-center"
+          alt="Extraccion de caño"
+        />
+      </div>
+      <div class="col-lg-4 h-75 card">
+        <img
+          src="../media/imagen_del_escaner.jpg"
+          class="h-100 card-img-top rounded d-flex justify-content-center"
+          alt="Imagen del escaner"
+        />
+      </div>
+      <div class="col-lg-4 h-75 card">
+        <img
+          src="../media/bajando_bomba.jpg"
+          class="h-100 card-img-top rounded d-flex justify-content-center"
+          alt="Descendiendo bomba de agua"
+        />
+      </div>
+      <div class="col-lg-4 h-75 card">
+        <img
+          src="../media/haciendo_perforación.jpg"
+          class="h-100 card-img-top rounded d-flex justify-content-center"
+          alt="Camion perforando"
+        />
+      </div>
+      <div class="col-lg-4 h-75 card">
+        <img
+          src="../media/introduciendo_bomba_de_agua.jpg"
+          class="h-100 card-img-top rounded d-flex justify-content-center"
+          alt="Introduciendo bomba de agua"
+        />
+      </div>
     </div>
     <a class="gotopbtn" data-aos="fade-left" href="#header"
       ><img

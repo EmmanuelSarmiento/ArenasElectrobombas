@@ -1,0 +1,182 @@
+* {
+  padding: 0;
+  margin-left: 0;
+  box-sizing: border-box;
+}
+
+/*index*/
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 100%;
+  height: 100%;
+}
+
+nav.row.navbar.navbar-expand-lg {
+  margin-right: 1px;
+  background-color: #eba83a;
+}
+nav.row.navbar.navbar-expand-lg ul.navbar-nav li {
+  list-style: none;
+}
+nav.row.navbar.navbar-expand-lg ul.navbar-nav li a {
+  position: relative;
+  display: block;
+  text-transform: uppercase;
+  margin: 20px 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #262626;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.5s;
+  z-index: 1;
+}
+nav.row.navbar.navbar-expand-lg ul.navbar-nav li a:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-top: 2px solid #262626;
+  border-bottom: 2px solid #262626;
+  transform: scaleY(2);
+  opacity: 0;
+  transition: 0.3s;
+}
+nav.row.navbar.navbar-expand-lg ul.navbar-nav li a:after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #262626;
+  transform: scale(0);
+  opacity: 0;
+  transition: 0.3s;
+  z-index: -1;
+}
+nav.row.navbar.navbar-expand-lg ul.navbar-nav li a.nav-link:hover {
+  color: #fff;
+}
+nav.row.navbar.navbar-expand-lg ul.navbar-nav li a:hover:before {
+  transform: scaleY(1);
+  opacity: 1;
+}
+nav.row.navbar.navbar-expand-lg ul.navbar-nav li a:hover:after {
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+div#carouselExampleCaptions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  min-height: 45vh;
+}
+
+a.gotopbtn {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  bottom: 40px;
+  right: 50px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 50px;
+  font-size: 22px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: x-large;
+  background-color: #eba83a;
+}
+
+/*about*/
+.parrafoEmpresa p {
+  font-family: "Merriweather Sans", sans-serif;
+  line-height: 1.6;
+  border-style: double;
+  margin: 20px;
+  padding: 20px;
+}
+
+/*gallery*/
+h2.text-center.fw-bold.mt-5.mb-3.border.border-5.rounded-5 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: x-large;
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+div.row.row-cols-1.row-cols-md-2.g-4.mt-1.mb-5 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+div.row.row-cols-1.row-cols-md-2.g-4.mt-1.mb-5 .col-lg-4:hover {
+  box-sizing: border-box !important;
+  cursor: pointer !important;
+  transition: all 0.8s ease !important;
+  transform: scale(1.05) !important;
+  z-index: 2;
+}
+
+/*location*/
+.container-fluid .col-sm-12.col-md-12.col-lg-6.d-flex.align-items-center.py-3 .list-group {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: medium;
+}
+
+section article ul.list-group {
+  width: 100%;
+}
+
+/*contact*/
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+section form div label {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+section form div label#trabjo {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: medium;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+section form div input#nombre, section form div input#direccionDos, section form div input#direccionUno, section form div input#empresa, section form div input#apellido {
+  width: 90%;
+  margin-left: 1rem;
+  border-radius: 5px;
+}
+section form div input.btn.btn-warning {
+  width: 100%;
+}
+
+section form div input#direccionDos {
+  width: 90%;
+}
+section form div select {
+  width: 100%;
+}
+section form div textarea#datosDelTrabajo {
+  width: 95%;
+  border-radius: 5px;
+}/*# sourceMappingURL=estilos.css.map */

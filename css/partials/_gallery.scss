@@ -1,0 +1,23 @@
+/*gallery*/
+
+h2.text-center.fw-bold.mt-5.mb-3.border.border-5.rounded-5 {
+  font-family: $fuente;
+  font-size: $fuenteXlarge;
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+div.row.row-cols-1.row-cols-md-2.g-4.mt-1.mb-5 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  & .col-lg-4:hover {
+    box-sizing: border-box !important;
+    cursor: pointer !important;
+    transition: all 0.8s ease !important;
+    -webkit-transform: scale(1.05) !important;
+    -ms-transform: scale(1.05) !important;
+    transform: scale(1.05) !important;
+    z-index: 2;
+  }
+}
