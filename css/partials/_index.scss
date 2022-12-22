@@ -88,10 +88,18 @@ a.gotopbtn {
   font-size: 22px;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: x-large;
+footer.row.text-center.text-white {
+  margin-right: 1px;
   background-color: #eba83a;
+}
+
+@media (max-width: 768px) {
+  nav div a img {
+    width: 90px;
+    height: 65px;
+  }
+
+  footer.row.text-center.text-white {
+    margin-top: 4rem;
+  }
 }

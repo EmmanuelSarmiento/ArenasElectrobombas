@@ -12,6 +12,7 @@ $estilos: (
   font-weight: bold,
   margin-left: 20px,
 );
+
 @mixin ancho($ancho) {
   width: $ancho;
 }

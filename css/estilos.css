@@ -93,14 +93,20 @@ a.gotopbtn {
   font-size: 22px;
 }
 
-footer {
-  display: flex;
-  justify-content: center;
-  font-family: "Merriweather Sans", sans-serif;
-  font-size: x-large;
+footer.row.text-center.text-white {
+  margin-right: 1px;
   background-color: #eba83a;
 }
 
+@media (max-width: 768px) {
+  nav div a img {
+    width: 90px;
+    height: 65px;
+  }
+  footer.row.text-center.text-white {
+    margin-top: 4rem;
+  }
+}
 /*about*/
 .parrafoEmpresa p {
   font-family: "Merriweather Sans", sans-serif;
@@ -166,15 +172,40 @@ section form div input#nombre, section form div input#direccionDos, section form
   margin-left: 1rem;
   border-radius: 5px;
 }
-section form div input.btn.btn-warning {
+section form div input.btn {
+  height: 50px;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  color: #000;
+  border-radius: 50px;
   width: 100%;
+}
+section form div input#enviar {
+  background-color: #eba83a;
+  box-shadow: -6px -6px 10px rgb(235, 168, 58), 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+section form div input#enviar:focus {
+  background-color: #eba83a;
+  font-size: 24px;
+  box-shadow: inset -6px -6px 10px rgb(235, 168, 58), inset 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+section form div input#borrar {
+  background-color: #eba83a;
+  box-shadow: -6px -6px 10px rgb(235, 168, 58), 6px 6px 10px rgba(0, 0, 0, 0.2);
+}
+section form div input#borrar:focus {
+  background-color: #eba83a;
+  font-size: 24px;
+  box-shadow: inset -6px -6px 10px rgb(235, 168, 58), inset 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 
 section form div input#direccionDos {
   width: 90%;
 }
 section form div select {
-  width: 100%;
+  margin-left: 1rem;
+  width: 90%;
 }
 section form div textarea#datosDelTrabajo {
   width: 95%;

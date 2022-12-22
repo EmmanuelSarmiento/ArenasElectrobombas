@@ -34,8 +34,36 @@ section form div input {
   &#direccionUno {
     @extend #nombre;
   }
-  &.btn.btn-warning {
+  &.btn {
+    height: 50px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+    color: #000;
+    border-radius: 50px;
     @include ancho(100%);
+  }
+  &#enviar {
+    background-color: #eba83a;
+    box-shadow: -6px -6px 10px rgba(235, 168, 58, 1),
+      6px 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  &#enviar:focus {
+    background-color: #eba83a;
+    font-size: 24px;
+    box-shadow: inset -6px -6px 10px rgba(235, 168, 58, 1),
+      inset 6px 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  &#borrar {
+    background-color: #eba83a;
+    box-shadow: -6px -6px 10px rgba(235, 168, 58, 1),
+      6px 6px 10px rgba(0, 0, 0, 0.2);
+  }
+  &#borrar:focus {
+    background-color: #eba83a;
+    font-size: 24px;
+    box-shadow: inset -6px -6px 10px rgba(235, 168, 58, 1),
+      inset 6px 6px 10px rgba(0, 0, 0, 0.2);
   }
 }
 
@@ -45,7 +73,8 @@ section form div {
     @extend #nombre;
   }
   & select {
-    @include ancho(100%);
+    margin-left: $margenUrem;
+    @include ancho(90%);
     @extend #nombre;
   }
   & textarea#datosDelTrabajo {
