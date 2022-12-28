@@ -11,7 +11,7 @@ html {
 
 body {
   margin: 100%;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 nav.row.navbar.navbar-expand-lg {
@@ -71,6 +71,29 @@ nav.row.navbar.navbar-expand-lg ul.navbar-nav li a:hover:before {
 nav.row.navbar.navbar-expand-lg ul.navbar-nav li a:hover:after {
   transform: scaleY(1);
   opacity: 1;
+}
+
+h1 {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.fs-1.mt-2.mb-2 {
+  text-decoration: none;
+  padding: 40px 80px;
+  color: #000;
+  border: 3px solid #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  transition: all 0.5s;
+}
+
+.fs-1.mt-2.mb-2:hover {
+  cursor: none;
+  font-weight: 900;
+  letter-spacing: 5px;
+  border: 7px solid #fff;
 }
 
 div.row.row-cols-1.row-cols-md-3.g-4 {
@@ -143,10 +166,6 @@ section article ul.list-group {
 }
 
 /*contact*/
-h1 {
-  font-family: "Merriweather Sans", sans-serif;
-}
-
 section form div label {
   font-family: "Merriweather Sans", sans-serif;
   font-size: medium;

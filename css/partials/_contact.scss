@@ -1,9 +1,5 @@
 /*contact*/
 
-h1 {
-  font-family: $fuente;
-}
-
 section form div label {
   font-family: map-get($estilos, font-family);
   font-size: map-get($estilos, font-size);
