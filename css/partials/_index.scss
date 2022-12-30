@@ -112,19 +112,6 @@ footer.row.text-center {
   background-color: #eba83a;
 }
 
-@media (max-width: 768px) {
-  nav div a img {
-    width: 90px;
-    height: 65px;
-  }
-  div.buttons-container {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-left: 9.5rem;
-  }
-}
-
 .buttons-container {
   @include flex(row, space-between, center);
   width: 60%;
@@ -151,14 +138,6 @@ footer.row.text-center {
   }
 }
 
-.facebook:hover {
-  background: #3b5998;
-}
-
-.twitter:hover {
-  background: #1da1f2;
-}
-
 .gmail:hover {
   background: #f14336;
   & a {
@@ -180,6 +159,15 @@ footer.row.text-center {
   }
 }
 
-.reddit:hover {
-  background: #ff6314;
+@media (max-width: 768px) {
+  nav div a img {
+    width: 90px;
+    height: 65px;
+  }
+  div.buttons-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 5rem;
+  }
 }

@@ -118,18 +118,6 @@ footer.row.text-center {
   background-color: #eba83a;
 }
 
-@media (max-width: 768px) {
-  nav div a img {
-    width: 90px;
-    height: 65px;
-  }
-  div.buttons-container {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-left: 9.5rem;
-  }
-}
 .buttons-container {
   display: flex;
   flex-direction: row;
@@ -160,14 +148,6 @@ footer.row.text-center {
   color: #fff;
 }
 
-.facebook:hover {
-  background: #3b5998;
-}
-
-.twitter:hover {
-  background: #1da1f2;
-}
-
 .gmail:hover {
   background: #f14336;
 }
@@ -189,10 +169,18 @@ footer.row.text-center {
   color: #fff;
 }
 
-.reddit:hover {
-  background: #ff6314;
+@media (max-width: 768px) {
+  nav div a img {
+    width: 90px;
+    height: 65px;
+  }
+  div.buttons-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 5rem;
+  }
 }
-
 /*about*/
 .parrafoEmpresa p {
   font-family: "Merriweather Sans", sans-serif;
