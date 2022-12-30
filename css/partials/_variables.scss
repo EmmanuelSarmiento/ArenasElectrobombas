@@ -16,3 +16,14 @@ $estilos: (
 @mixin ancho($ancho) {
   width: $ancho;
 }
+
+@mixin flex($direction, $justify, $align) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-items: $align;
+}
+
+$neu-shadow: 9px 9px 16px rgba(0, 0, 0, 0), -9px -9px 16px rgba(0, 0, 0, 0);
+
+$new-shadow-active: 0px 0px 10px 6px rgba(0, 0, 0, 0);

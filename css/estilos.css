@@ -113,7 +113,7 @@ a.gotopbtn {
   font-size: 22px;
 }
 
-footer.row.text-center.text-white {
+footer.row.text-center {
   margin-right: 1px;
   background-color: #eba83a;
 }
@@ -123,7 +123,76 @@ footer.row.text-center.text-white {
     width: 90px;
     height: 65px;
   }
+  div.buttons-container {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 9.5rem;
+  }
 }
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  flex-wrap: wrap;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  box-shadow: 9px 9px 16px rgba(0, 0, 0, 0), -9px -9px 16px rgba(0, 0, 0, 0);
+  margin-bottom: 1em;
+}
+.button a {
+  color: #000;
+}
+.button:hover {
+  border: 2px solid #fff;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 6px rgba(0, 0, 0, 0);
+  color: #fff;
+}
+
+.facebook:hover {
+  background: #3b5998;
+}
+
+.twitter:hover {
+  background: #1da1f2;
+}
+
+.gmail:hover {
+  background: #f14336;
+}
+.gmail:hover a {
+  color: #fff;
+}
+
+.github:hover {
+  background: #000;
+}
+.github:hover a {
+  color: #fff;
+}
+
+.linkedin:hover {
+  background: #0077b7;
+}
+.linkedin:hover a {
+  color: #fff;
+}
+
+.reddit:hover {
+  background: #ff6314;
+}
+
 /*about*/
 .parrafoEmpresa p {
   font-family: "Merriweather Sans", sans-serif;
@@ -134,12 +203,25 @@ footer.row.text-center.text-white {
 }
 
 /*gallery*/
-h2.text-center.fw-bold.mt-5.mb-3.border.border-5.rounded-5 {
+h2 {
   font-family: "Merriweather Sans", sans-serif;
-  font-size: x-large;
-  text-align: center;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+}
+h2.fs-1.mt-2.mb-2 {
+  text-decoration: none;
+  padding: 40px 80px;
+  color: #000;
+  border: 3px solid #fff;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  transition: all 0.5s;
+}
+h2.fs-1.mt-2.mb-2:hover {
+  cursor: none;
+  font-weight: 900;
+  letter-spacing: 5px;
+  border: 7px solid #fff;
 }
 
 .galeria img {
@@ -197,7 +279,7 @@ section form div input.btn {
 }
 section form div input#enviar {
   background-color: #eba83a;
-  box-shadow: -6px -6px 10px rgb(235, 168, 58), 6px 6px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: -6px -6px 10px rgba(235, 167, 58, 0), 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 section form div input#enviar:focus {
   background-color: #eba83a;
@@ -206,7 +288,7 @@ section form div input#enviar:focus {
 }
 section form div input#borrar {
   background-color: #eba83a;
-  box-shadow: -6px -6px 10px rgb(235, 168, 58), 6px 6px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: -6px -6px 10px rgba(0, 0, 0, 0), 6px 6px 10px rgba(0, 0, 0, 0.2);
 }
 section form div input#borrar:focus {
   background-color: #eba83a;
