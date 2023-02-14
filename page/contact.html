@@ -87,29 +87,35 @@
     </nav>
     <section class="container-fluid">
       <h1 class="fs-1 text-center mt-2 mb-2">Contactanos:</h1>
-      <form name="contact" netlify class="row g-3">
+      <form
+        class="row g-3"
+        action="https://formsubmit.co/emmatombino21@gmail.com"
+        method="POST"
+      >
         <div class="col-sm-12 col-lg-6 mb-3">
           <label for="nombre">Nombre</label>
-          <input type="text" id="nombre" />
+          <input type="text" id="nombre" name="nombre" />
         </div>
         <div class="col-sm-12 col-lg-6">
           <label for="apellido">Apellido</label>
-          <input type="text" id="apellido" />
+          <input type="text" id="apellido" name="apellido" />
         </div>
         <div class="col-sm-12 col-lg-6 mb-3">
           <label for="empresa">Empresa</label>
-          <input type="text" id="empresa" />
+          <input type="text" id="empresa" name="empresa" />
         </div>
         <div class="col-sm-12 col-lg-6">
           <label for="direccion" class="form-label">Dirección</label>
-          <input type="text" id="direccionUno" />
+          <input type="text" id="direccionUno" name="doreccion" />
         </div>
         <div class="col-sm-12 col-lg-6 mb-3">
           <label for="entreCalles" class="form-label">Entre Calles</label>
-          <input type="text" id="direccionDos" />
+          <input type="text" id="direccionDos" name="entreCalles" />
         </div>
         <div class="col-sm-12 col-lg-6">
-          <label for="direccion" class="form-label">Seleccione</label>
+          <label for="direccion" class="form-label" name="localidad"
+            >Seleccione</label
+          >
           <select>
             <option selected="selected">Su localidad</option>
             <option>Ciudad</option>
@@ -133,7 +139,7 @@
           </select>
         </div>
         <div class="col-12 text-center">
-          <label for="datosDelTrabajo" id="trabajo"
+          <label for="datosDelTrabajo" id="trabajo" name="datosDelTrabajo"
             >Información del trabajo requerido</label
           >
         </div>
@@ -146,6 +152,12 @@
         <div class="col-6">
           <input class="btn" id="borrar" type="reset" value="Borrar" />
         </div>
+        <input
+          type="hidden"
+          name="_next"
+          value="https://esarmiento-10.000webhostapp.com/"
+        />
+        <input type="hidden" name="_captcha" value="false" />
       </form>
     </section>
     <a class="gotopbtn" data-aos="fade-left" href="#header"
