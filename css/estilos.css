@@ -169,7 +169,12 @@ footer.row.text-center {
   color: #fff;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
+  div.buttons-container {
+    margin-left: 10rem;
+  }
+}
+@media (max-width: 990px) {
   nav div a img {
     width: 90px;
     height: 65px;
@@ -178,7 +183,7 @@ footer.row.text-center {
     display: flex;
     text-align: center;
     justify-content: center;
-    margin-left: 5rem;
+    margin-left: 6rem;
   }
 }
 /*about*/
